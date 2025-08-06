@@ -1,4 +1,4 @@
-/* বেসিক সেটিংস */
+/* Basic  */
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     overflow: hidden;
 }
 
-/* মূল কন্টেইনার */
+/* Main container   */
 .main-container {
     background: rgba(0, 0, 0, 0.8);
     padding: 20px;
@@ -35,7 +35,7 @@ body {
     color: #ccc;
 }
 
-/* স্কোর */
+/* Score */
 .score-container {
     display: flex;
     justify-content: space-around;
@@ -48,7 +48,7 @@ body {
     color: #ffcc00;
 }
 
-/* গেম বাটন */
+/* Game Btn  */
 .game-container {
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@ body {
     box-shadow: 0 10px 20px rgba(255, 65, 108, 0.8);
 }
 
-/* রেজাল্ট */
+/* Result */
 .result-container {
     margin-top: 20px;
     display: flex;
@@ -92,7 +92,7 @@ body {
     min-width: 50px;
 }
 
-/* রিস্টার্ট বাটন */
+/* Restart btn */
 .restart-btn {
     margin-top: 20px;
     padding: 10px 20px;
@@ -111,7 +111,7 @@ body {
     transform: scale(1.1);
 }
 
-/* অ্যানিমেশন */
+/* Animation */
 @keyframes glow {
     0% {
         text-shadow: 0 0 10px #f12711, 0 0 20px #f5af19;
